@@ -9,4 +9,8 @@ const Index = () => {
     )
 }
 
+Index.getInitialProps = (context) =>{
+
+}
+
 export default Index
