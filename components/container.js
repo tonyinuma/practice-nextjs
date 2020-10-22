@@ -13,7 +13,9 @@ const Container = (props) => (
         </Head>
         <Navigation/>
         <div>
-            {props.children}
+            <div className="container">
+                {props.children}
+            </div>
         </div>
     </div>
 )
