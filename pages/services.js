@@ -1,11 +1,19 @@
-import Navigation from "../components/conatiner";
-import Container from "../components/conatiner";
+import Container from "../components/container";
+import Head from "next/head";
 import React from "react";
 
-const About = () => {
-    return <Container>
-        <h1>Services</h1>
-    </Container>
+const Services = () => {
+    return (
+        <Container>
+            <Head>
+                <title>Services</title>
+            </Head>
+            <h1>Services</h1>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae et repellat repudiandae. Aliquam,
+            consequatur corporis culpa debitis nam odit perspiciatis quasi qui!
+            Aperiam est explicabo omnis. A dolorum enim voluptatem.
+        </Container>
+    )
 }
 
-export default About
+export default Services
