@@ -7,9 +7,7 @@ const Cotizacion = () => {
         <Head>
             <title>Cotizacion</title>
         </Head>
-        <div className="container">
-            <h1>Cotizacion</h1>
-        </div>
+        <h1>Cotizacion</h1>
     </Container>
 }
 
