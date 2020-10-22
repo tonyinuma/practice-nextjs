@@ -3,8 +3,10 @@ import React from "react";
 
 const Navigation = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
-            <a className="navbar-brand ml-4" href="/">Navbar</a>
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a className="navbar-brand ml-4" href="/">
+                <img src="https://web.afe.pe/wp-content/uploads/2020/02/logo1.png" alt="" width={70}/>
+            </a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon" />
             </button>
